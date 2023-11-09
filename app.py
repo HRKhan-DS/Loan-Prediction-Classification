@@ -69,9 +69,9 @@ def main():
 
         # Display the result
         if prediction[0] == 1:
-            st.write("Congratulations! You are eligible for a Home Loan.")
+            st.write("Congratulations! You are eligible for a Loan.")
         else:
-            st.write("Sorry, you are not eligible for a Home Loan")
+            st.write("Sorry, you are not eligible for a Loan")
 
     # Larger gap using multiple <br> tags
     st.markdown("<br><br><br>", unsafe_allow_html=True)
